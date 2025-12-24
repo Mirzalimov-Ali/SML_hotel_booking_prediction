@@ -1,0 +1,130 @@
+2025-12-22 20:40:23,398 - INFO - preprocessing TRAIN - Filled NUMERIC columns with MEAN: ['lead_time', 'arrival_date_week_number', 'arrival_date_day_of_month', 'stays_in_weekend_nights', 'stays_in_week_nights', 'adults', 'children', 'babies', 'is_repeated_guest', 'previous_cancellations', 'previous_bookings_not_canceled', 'booking_changes', 'agent', 'days_in_waiting_list', 'adr', 'required_car_parking_spaces', 'total_of_special_requests']
+2025-12-22 20:40:23,407 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'hotel' with MODE: City Hotel - Ahmedabad
+2025-12-22 20:40:23,416 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'arrival_date_month' with MODE: October
+2025-12-22 20:40:23,424 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'meal' with MODE: BB
+2025-12-22 20:40:23,431 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'country' with MODE: PRT
+2025-12-22 20:40:23,439 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'market_segment' with MODE: Online TA
+2025-12-22 20:40:23,447 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'distribution_channel' with MODE: TA/TO
+2025-12-22 20:40:23,453 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'reserved_room_type' with MODE: A
+2025-12-22 20:40:23,460 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'assigned_room_type' with MODE: A
+2025-12-22 20:40:23,468 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'deposit_type' with MODE: No Deposit
+2025-12-22 20:40:23,475 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'customer_type' with MODE: Transient
+2025-12-22 20:40:23,485 - INFO - preprocessing TRAIN - Filled CATEGORICAL column 'city' with MODE: Bhopal
+2025-12-22 20:40:23,485 - INFO - preprocessing TRAIN - Missing values filled successfully (TRAIN)
+2025-12-22 20:40:23,485 - INFO - use_filling - Preprocessing steps completed successfully.
+2025-12-22 20:40:23,504 - INFO - use_filling - Preprocessing pipeline saved to pipeline/filled_x_train.joblib
+2025-12-22 20:40:23,506 - INFO - preprocessing TEST - [TEST] Filled missing values in column: lead_time
+2025-12-22 20:40:23,506 - INFO - preprocessing TEST - [TEST] Filled missing values in column: arrival_date_week_number
+2025-12-22 20:40:23,506 - INFO - preprocessing TEST - [TEST] Filled missing values in column: arrival_date_day_of_month
+2025-12-22 20:40:23,506 - INFO - preprocessing TEST - [TEST] Filled missing values in column: stays_in_weekend_nights
+2025-12-22 20:40:23,507 - INFO - preprocessing TEST - [TEST] Filled missing values in column: stays_in_week_nights
+2025-12-22 20:40:23,507 - INFO - preprocessing TEST - [TEST] Filled missing values in column: adults
+2025-12-22 20:40:23,507 - INFO - preprocessing TEST - [TEST] Filled missing values in column: children
+2025-12-22 20:40:23,507 - INFO - preprocessing TEST - [TEST] Filled missing values in column: babies
+2025-12-22 20:40:23,507 - INFO - preprocessing TEST - [TEST] Filled missing values in column: is_repeated_guest
+2025-12-22 20:40:23,507 - INFO - preprocessing TEST - [TEST] Filled missing values in column: previous_cancellations
+2025-12-22 20:40:23,507 - INFO - preprocessing TEST - [TEST] Filled missing values in column: previous_bookings_not_canceled
+2025-12-22 20:40:23,507 - INFO - preprocessing TEST - [TEST] Filled missing values in column: booking_changes
+2025-12-22 20:40:23,507 - INFO - preprocessing TEST - [TEST] Filled missing values in column: agent
+2025-12-22 20:40:23,509 - INFO - preprocessing TEST - [TEST] Filled missing values in column: days_in_waiting_list
+2025-12-22 20:40:23,509 - INFO - preprocessing TEST - [TEST] Filled missing values in column: adr
+2025-12-22 20:40:23,509 - INFO - preprocessing TEST - [TEST] Filled missing values in column: required_car_parking_spaces
+2025-12-22 20:40:23,509 - INFO - preprocessing TEST - [TEST] Filled missing values in column: total_of_special_requests
+2025-12-22 20:40:23,509 - INFO - preprocessing TEST - [TEST] Filled missing values in column: hotel
+2025-12-22 20:40:23,509 - INFO - preprocessing TEST - [TEST] Filled missing values in column: arrival_date_month
+2025-12-22 20:40:23,511 - INFO - preprocessing TEST - [TEST] Filled missing values in column: meal
+2025-12-22 20:40:23,512 - INFO - preprocessing TEST - [TEST] Filled missing values in column: country
+2025-12-22 20:40:23,512 - INFO - preprocessing TEST - [TEST] Filled missing values in column: market_segment
+2025-12-22 20:40:23,513 - INFO - preprocessing TEST - [TEST] Filled missing values in column: distribution_channel
+2025-12-22 20:40:23,514 - INFO - preprocessing TEST - [TEST] Filled missing values in column: reserved_room_type
+2025-12-22 20:40:23,514 - INFO - preprocessing TEST - [TEST] Filled missing values in column: assigned_room_type
+2025-12-22 20:40:23,515 - INFO - preprocessing TEST - [TEST] Filled missing values in column: deposit_type
+2025-12-22 20:40:23,516 - INFO - preprocessing TEST - [TEST] Filled missing values in column: customer_type
+2025-12-22 20:40:23,517 - INFO - preprocessing TEST - [TEST] Filled missing values in column: city
+2025-12-22 20:40:23,517 - INFO - use_filling - Preprocessing steps completed successfully.
+2025-12-22 20:40:23,811 - INFO - use_filling - Filled dataset saved to data/filled/filled_x_train.csv
+2025-12-22 20:40:23,888 - INFO - use_filling - Filled dataset saved to data/filled/filled_x_test.csv
+2025-12-22 20:40:23,888 - INFO - use_filling - Successfully filled the dataset and saved all outputs!
+2025-12-22 20:40:45,308 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: hotel
+2025-12-22 20:40:45,316 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: arrival_date_month
+2025-12-22 20:40:45,323 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: meal
+2025-12-22 20:40:45,329 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: country
+2025-12-22 20:40:45,336 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: market_segment
+2025-12-22 20:40:45,342 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: distribution_channel
+2025-12-22 20:40:45,347 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: reserved_room_type
+2025-12-22 20:40:45,353 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: assigned_room_type
+2025-12-22 20:40:45,359 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: deposit_type
+2025-12-22 20:40:45,366 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: customer_type
+2025-12-22 20:40:45,374 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: city
+2025-12-22 20:40:45,375 - INFO - preprocessing TRAIN - All categorical features encoded using Ordinal Encoding.
+2025-12-22 20:40:45,408 - INFO - preprocessing TRAIN - Log transformation applied to: ['lead_time', 'stays_in_weekend_nights', 'stays_in_week_nights', 'adults', 'children', 'babies', 'meal', 'is_repeated_guest', 'previous_cancellations', 'previous_bookings_not_canceled', 'reserved_room_type', 'assigned_room_type', 'booking_changes', 'deposit_type', 'agent', 'days_in_waiting_list', 'adr', 'required_car_parking_spaces', 'total_of_special_requests', 'total_nights', 'total_guests', 'adr_per_person', 'is_free_booking', 'has_previous_cancel', 'is_loyal_customer', 'room_changed', 'is_long_stay', 'weekend_ratio', 'is_last_minute', 'adr_x_lead_time', 'has_children', 'has_babies', 'solo_traveler', 'many_booking_changes', 'was_waitlisted', 'many_special_requests', 'needs_parking', 'is_high_season']
+2025-12-22 20:40:45,481 - INFO - preprocessing TRAIN - Numerical scaling applied to 50 columns using MinMaxScaler().
+2025-12-22 20:40:45,481 - INFO - use_preprocessing - Preprocessing steps completed successfully.
+2025-12-22 20:40:45,501 - INFO - use_preprocessing - Preprocessing pipeline saved to pipeline/preprodessed_pipeline.joblib
+2025-12-22 20:40:45,507 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: hotel
+2025-12-22 20:40:45,510 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: arrival_date_month
+2025-12-22 20:40:45,514 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: meal
+2025-12-22 20:40:45,517 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: country
+2025-12-22 20:40:45,521 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: market_segment
+2025-12-22 20:40:45,524 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: distribution_channel
+2025-12-22 20:40:45,527 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: reserved_room_type
+2025-12-22 20:40:45,530 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: assigned_room_type
+2025-12-22 20:40:45,533 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: deposit_type
+2025-12-22 20:40:45,537 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: customer_type
+2025-12-22 20:40:45,540 - INFO - preprocessing TEST - [TEST] Applied Label Encoding to column: city
+2025-12-22 20:40:45,546 - INFO - preprocessing TEST - [TEST] Applied log1p to column: agent
+2025-12-22 20:40:45,548 - INFO - preprocessing TEST - [TEST] Scaled column: hotel
+2025-12-22 20:40:45,549 - INFO - preprocessing TEST - [TEST] Scaled column: lead_time
+2025-12-22 20:40:45,549 - INFO - preprocessing TEST - [TEST] Scaled column: arrival_date_month
+2025-12-22 20:40:45,550 - INFO - preprocessing TEST - [TEST] Scaled column: arrival_date_week_number
+2025-12-22 20:40:45,550 - INFO - preprocessing TEST - [TEST] Scaled column: arrival_date_day_of_month
+2025-12-22 20:40:45,551 - INFO - preprocessing TEST - [TEST] Scaled column: stays_in_weekend_nights
+2025-12-22 20:40:45,551 - INFO - preprocessing TEST - [TEST] Scaled column: stays_in_week_nights
+2025-12-22 20:40:45,552 - INFO - preprocessing TEST - [TEST] Scaled column: adults
+2025-12-22 20:40:45,553 - INFO - preprocessing TEST - [TEST] Scaled column: children
+2025-12-22 20:40:45,553 - INFO - preprocessing TEST - [TEST] Scaled column: babies
+2025-12-22 20:40:45,554 - INFO - preprocessing TEST - [TEST] Scaled column: meal
+2025-12-22 20:40:45,554 - INFO - preprocessing TEST - [TEST] Scaled column: country
+2025-12-22 20:40:45,555 - INFO - preprocessing TEST - [TEST] Scaled column: market_segment
+2025-12-22 20:40:45,555 - INFO - preprocessing TEST - [TEST] Scaled column: distribution_channel
+2025-12-22 20:40:45,556 - INFO - preprocessing TEST - [TEST] Scaled column: is_repeated_guest
+2025-12-22 20:40:45,556 - INFO - preprocessing TEST - [TEST] Scaled column: previous_cancellations
+2025-12-22 20:40:45,557 - INFO - preprocessing TEST - [TEST] Scaled column: previous_bookings_not_canceled
+2025-12-22 20:40:45,557 - INFO - preprocessing TEST - [TEST] Scaled column: reserved_room_type
+2025-12-22 20:40:45,558 - INFO - preprocessing TEST - [TEST] Scaled column: assigned_room_type
+2025-12-22 20:40:45,558 - INFO - preprocessing TEST - [TEST] Scaled column: booking_changes
+2025-12-22 20:40:45,559 - INFO - preprocessing TEST - [TEST] Scaled column: deposit_type
+2025-12-22 20:40:45,560 - INFO - preprocessing TEST - [TEST] Scaled column: agent
+2025-12-22 20:40:45,560 - INFO - preprocessing TEST - [TEST] Scaled column: days_in_waiting_list
+2025-12-22 20:40:45,561 - INFO - preprocessing TEST - [TEST] Scaled column: customer_type
+2025-12-22 20:40:45,561 - INFO - preprocessing TEST - [TEST] Scaled column: adr
+2025-12-22 20:40:45,562 - INFO - preprocessing TEST - [TEST] Scaled column: required_car_parking_spaces
+2025-12-22 20:40:45,562 - INFO - preprocessing TEST - [TEST] Scaled column: total_of_special_requests
+2025-12-22 20:40:45,563 - INFO - preprocessing TEST - [TEST] Scaled column: city
+2025-12-22 20:40:45,564 - INFO - preprocessing TEST - [TEST] Scaled column: total_nights
+2025-12-22 20:40:45,564 - INFO - preprocessing TEST - [TEST] Scaled column: lead_time_log
+2025-12-22 20:40:45,565 - INFO - preprocessing TEST - [TEST] Scaled column: total_guests
+2025-12-22 20:40:45,565 - INFO - preprocessing TEST - [TEST] Scaled column: adr_per_person
+2025-12-22 20:40:45,566 - INFO - preprocessing TEST - [TEST] Scaled column: is_free_booking
+2025-12-22 20:40:45,566 - INFO - preprocessing TEST - [TEST] Scaled column: has_previous_cancel
+2025-12-22 20:40:45,567 - INFO - preprocessing TEST - [TEST] Scaled column: is_loyal_customer
+2025-12-22 20:40:45,568 - INFO - preprocessing TEST - [TEST] Scaled column: room_changed
+2025-12-22 20:40:45,568 - INFO - preprocessing TEST - [TEST] Scaled column: has_agent
+2025-12-22 20:40:45,569 - INFO - preprocessing TEST - [TEST] Scaled column: is_short_stay
+2025-12-22 20:40:45,569 - INFO - preprocessing TEST - [TEST] Scaled column: is_long_stay
+2025-12-22 20:40:45,570 - INFO - preprocessing TEST - [TEST] Scaled column: weekend_ratio
+2025-12-22 20:40:45,571 - INFO - preprocessing TEST - [TEST] Scaled column: is_last_minute
+2025-12-22 20:40:45,571 - INFO - preprocessing TEST - [TEST] Scaled column: adr_x_lead_time
+2025-12-22 20:40:45,572 - INFO - preprocessing TEST - [TEST] Scaled column: has_children
+2025-12-22 20:40:45,572 - INFO - preprocessing TEST - [TEST] Scaled column: has_babies
+2025-12-22 20:40:45,573 - INFO - preprocessing TEST - [TEST] Scaled column: solo_traveler
+2025-12-22 20:40:45,573 - INFO - preprocessing TEST - [TEST] Scaled column: many_booking_changes
+2025-12-22 20:40:45,574 - INFO - preprocessing TEST - [TEST] Scaled column: was_waitlisted
+2025-12-22 20:40:45,575 - INFO - preprocessing TEST - [TEST] Scaled column: many_special_requests
+2025-12-22 20:40:45,575 - INFO - preprocessing TEST - [TEST] Scaled column: needs_parking
+2025-12-22 20:40:45,576 - INFO - preprocessing TEST - [TEST] Scaled column: is_high_season
+2025-12-22 20:40:45,576 - INFO - preprocessing TEST - TEST preprocessing finished successfully
+2025-12-22 20:40:45,576 - INFO - use_preprocessing - Preprocessing steps completed successfully.
+2025-12-22 20:40:47,053 - INFO - use_preprocessing - reprocessed dataset saved to data/preprocessed/preprocessed_x_train.csv
+2025-12-22 20:40:47,423 - INFO - use_preprocessing - Preprocessed dataset saved to data/preprocessed/preprocessed_x_test.csv
+2025-12-22 20:40:47,423 - INFO - use_preprocessing - Successfully preprocessed the dataset and saved all outputs!

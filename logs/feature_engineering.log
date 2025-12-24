@@ -1,0 +1,8 @@
+2025-12-22 20:40:37,699 - INFO - feature_engineering - New engineered features successfully added.
+2025-12-22 20:40:37,699 - INFO - use_feature_engineering - Feature engineering completed for TRAIN dataset.
+2025-12-22 20:40:37,700 - INFO - use_feature_engineering - Feature engineering pipeline saved to pipeline/feature_engineering.joblib
+2025-12-22 20:40:37,706 - INFO - feature_engineering - New engineered features successfully added.
+2025-12-22 20:40:37,706 - INFO - use_feature_engineering - Feature engineering completed for TEST dataset.
+2025-12-22 20:40:38,300 - INFO - use_feature_engineering - Engineered dataset saved to data/engineered/engineered_x_train.csv
+2025-12-22 20:40:38,449 - INFO - use_feature_engineering - Engineered dataset saved to data/engineered/engineered_x_test.csv
+2025-12-22 20:40:38,449 - INFO - use_feature_engineering - Successfully engineered the dataset and saved all outputs!
