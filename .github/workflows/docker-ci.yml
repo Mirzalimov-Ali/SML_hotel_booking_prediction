@@ -23,6 +23,8 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
+          registry: docker.io
+
 
       # 4️⃣ Build & push Docker image
       - name: Build and push Docker image
@@ -31,10 +33,10 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          pull: true
           tags: |
             krodeg/hotel-api:latest
             krodeg/hotel-api:${{ github.sha }}
+          login: true
 
       # 5️⃣ Run container for smoke testing
       - name: Run container
