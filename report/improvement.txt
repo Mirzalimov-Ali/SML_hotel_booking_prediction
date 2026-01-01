@@ -1,0 +1,29 @@
+                               Base model training Comparison                                
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Algorithm           ┃ Accuracy ┃ Precision ┃ Recall ┃ F1-score ┃ K-Fold mean ┃ K-Fold std ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━━┩
+│ Logistic Regression │ 0.82     │ 0.74      │ 0.79   │ 0.76     │ 0.80        │ 0.00       │
+├─────────────────────┼──────────┼───────────┼────────┼──────────┼─────────────┼────────────┤
+│ DecisionTree        │ 0.83     │ 0.77      │ 0.79   │ 0.78     │ 0.80        │ 0.01       │
+└─────────────────────┴──────────┴───────────┴────────┴──────────┴─────────────┴────────────┘
+
+                                 Final Result (with improvement)                                  
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Algorithm           ┃ Accuracy ┃ Precision ┃ Recall ┃ F1-score ┃ K-Fold mean ┃ K-Fold std ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━━┩
+│ Stacking            │ 0.86     │ 0.77      │ 0.91   │ 0.83     │ 0.91        │ 0.00       │
+└─────────────────────┴──────────┴───────────┴────────┴──────────┴─────────────┴────────────┘
+
+Accuracy: 4%
+Precision: 3%
+Recall: 11%
+F1-score: 7%
+
+bu projectda eng kerakli metric - recall 
+shu sababli project davomida recall kup oshdi. 
+
+qanday rivojlandi:
+- KNNImputer orqali 5 ta qushni atrofida tushurib qoldirilgan qiymatlarni handle qildik
+- Feature Engineering qildik, 29 ta feature yasaldi
+- Hyperparameter tuning qildik. recallga mujallangan
+- Final trainingda predict_proba va treshold orqali recallni oshirdik
