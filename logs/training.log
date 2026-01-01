@@ -1,0 +1,31 @@
+2025-12-31 18:26:57,700 - INFO - use_training - Data loaded successfully
+2025-12-31 18:30:32,911 - INFO - use_training - Data loaded successfully
+2025-12-31 19:18:05,028 - INFO - use_training - Best F1-macro: 0.9062846592799062
+2025-12-31 19:18:05,028 - INFO - use_training - Best params: {'rf_n_estimators': 133, 'rf_max_depth': 28, 'rf_min_samples_split': 4, 'xgb_n_estimators': 394, 'xgb_max_depth': 8, 'xgb_learning_rate': 0.010455272377348017, 'lgbm_n_estimators': 395, 'lgbm_max_depth': 4, 'lgbm_learning_rate': 0.291073184620667, 'bag_n_estimators': 15}
+2025-12-31 19:18:34,435 - INFO - use_training - Best Stacking model trained
+2025-12-31 19:19:52,610 - INFO - use_training - Final model pipeline saved
+2025-12-31 19:19:52,615 - INFO - use_training - Results saved to results/final_results.txt
+2026-01-01 09:54:17,981 - INFO - use_training - Data loaded and balanced successfully
+2026-01-01 10:15:11,587 - INFO - use_training - Best Recall: 0.9999668099371049
+2026-01-01 10:15:11,587 - INFO - use_training - Best params: {'rf_n_estimators': 287, 'rf_max_depth': 7, 'rf_min_samples_split': 4, 'xgb_n_estimators': 399, 'xgb_max_depth': 9, 'xgb_learning_rate': 0.29929978164241366, 'lgbm_n_estimators': 169, 'lgbm_max_depth': 10, 'lgbm_learning_rate': 0.01434875973657817, 'bag_n_estimators': 5, 'threshold': 0.2007559100884969}
+2026-01-01 10:15:47,614 - INFO - use_training - Best Stacking model trained
+2026-01-01 10:15:47,909 - INFO - use_training - Final model saved with threshold=0.20
+2026-01-01 10:15:47,912 - INFO - use_training - Results saved to results/final_results.txt
+2026-01-01 10:27:10,467 - INFO - use_training - Data loaded and balanced successfully
+2026-01-01 10:53:11,683 - INFO - use_training - Best Recall: 1.0
+2026-01-01 10:53:11,683 - INFO - use_training - Best params: {'rf_n_estimators': 165, 'rf_max_depth': 9, 'rf_min_samples_split': 4, 'xgb_n_estimators': 203, 'xgb_max_depth': 16, 'xgb_learning_rate': 0.26619339246473855, 'lgbm_n_estimators': 202, 'lgbm_max_depth': 19, 'lgbm_learning_rate': 0.02827693348428008, 'bag_n_estimators': 9, 'threshold': 0.3509310247724608}
+2026-01-01 10:53:40,900 - INFO - use_training - Best Stacking model trained
+2026-01-01 10:54:52,180 - INFO - use_training - Final model saved with threshold=0.35
+2026-01-01 10:54:52,184 - INFO - use_training - Comparison table saved at results/final_results.txt
+2026-01-01 11:13:40,374 - INFO - use_training - Data loaded and balanced successfully
+2026-01-01 11:49:54,657 - INFO - use_training - Best Recall: 1.0
+2026-01-01 11:49:54,658 - INFO - use_training - Best params: {'rf_n_estimators': 313, 'rf_max_depth': 49, 'rf_min_samples_split': 3, 'xgb_n_estimators': 250, 'xgb_max_depth': 6, 'xgb_learning_rate': 0.09280759874575067, 'lgbm_n_estimators': 119, 'lgbm_max_depth': 7, 'lgbm_learning_rate': 0.19109306363170267, 'bag_n_estimators': 22, 'threshold': 0.24518790200163532}
+2026-01-01 11:50:43,747 - INFO - use_training - Best Stacking model trained
+2026-01-01 11:52:21,675 - INFO - use_training - Final model saved with threshold=0.25
+2026-01-01 11:52:21,680 - INFO - use_training - Comparison table saved at results/final_results.txt
+2026-01-01 12:29:34,331 - INFO - use_training - Data loaded and balanced successfully
+2026-01-01 13:05:18,499 - INFO - use_training - Best Recall: 1.0
+2026-01-01 13:05:18,499 - INFO - use_training - Best params: {'rf_n_estimators': 423, 'rf_max_depth': 33, 'rf_min_samples_split': 2, 'xgb_n_estimators': 316, 'xgb_max_depth': 20, 'xgb_learning_rate': 0.017992774661275905, 'lgbm_n_estimators': 89, 'lgbm_max_depth': 2, 'lgbm_learning_rate': 0.03625975689497484, 'bag_n_estimators': 5, 'threshold': 0.23858247595008802}
+2026-01-01 13:06:57,401 - INFO - use_training - Best Stacking model trained
+2026-01-01 13:10:35,140 - INFO - use_training - Final model saved with threshold=0.24
+2026-01-01 13:10:35,144 - INFO - use_training - Comparison table saved at results/final_results.txt

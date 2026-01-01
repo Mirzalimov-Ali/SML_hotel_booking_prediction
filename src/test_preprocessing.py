@@ -12,40 +12,34 @@ class PreprocessingTest:
         self.log_cols = preprocessing_train.log_cols
         self.target = preprocessing_train.target
 
-    def fillingTest(self, df: pd.DataFrame):
+    # ===== MISSING VALUES =====
+    def fillingTest(self, df):
         df = df.copy()
 
-        # ===== MISSING VALUES =====
+        if "knn" in self.imputers:
+            num_cols = df.select_dtypes(include=['int64', 'float64']).columns
+            df[num_cols] = self.imputers["knn"].transform(df[num_cols])
+
         for col, val in self.imputers.items():
-            if col in df.columns:
+            if col != "knn" and col in df.columns:
                 df[col] = df[col].fillna(val)
-                logger.info(f"[TEST] Filled missing values in column: {col}")
 
         return df
 
+
     # ===== ENCODING =====
-    def encodingTest(self, df: pd.DataFrame):
+    def encodingTest(self, df):
         df = df.copy()
 
         for col, encoder in self.label_encoders.items():
             if col in df.columns:
-                # agar testda train’da yo‘q label bo‘lsa → error bo‘lmasligi uchun
-                df[col] = df[col].astype(str)
-
-                known_classes = set(encoder.classes_)
-                default_class = encoder.classes_[0]
-
-                df[col] = df[col].apply(
-                    lambda x: x if x in known_classes else default_class
-                )
-
-                df[col] = encoder.transform(df[col])
-                logger.info(f"[TEST] Applied Label Encoding to column: {col}")
+                df[[col]] = encoder.transform(df[[col]])
+                logger.info(f"[TEST] Applied Ordinal Encoding to column: {col}")
 
         return df
 
     # ===== LOG TRANSFORMATION =====
-    def logTransformationTest(self, df: pd.DataFrame):
+    def logTransformationTest(self, df):
         df = df.copy()
 
         for col in self.log_cols:
@@ -59,14 +53,17 @@ class PreprocessingTest:
     def scalingTest(self, df: pd.DataFrame):
         df = df.copy()
 
-        for col, scaler in self.scalers.items():
-            if col in df.columns and col not in self.target:
-                df[col] = scaler.transform(df[[col]])
-                logger.info(f"[TEST] Scaled column: {col}")
+        if "numeric" in self.scalers:
+            num_cols = df.select_dtypes(include=['int64', 'float64']).columns
+            num_cols = [c for c in num_cols if c not in self.target]
 
-        logger.info("TEST preprocessing finished successfully")
+            df[num_cols] = self.scalers["numeric"].transform(df[num_cols])
+            logger.info("[TEST] Scaled numeric columns using StandardScaler")
+
         return df
+
     
+    # ===== TRANSFORM =====
     def transform(self, df, filled=False):
         if not filled:
             df = self.fillingTest(df)

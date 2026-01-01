@@ -1,0 +1,5 @@
+Hotel,Lead Time,Arrival Month,Arrival Week Number,Arrival Day of Month,Weekend Nights,Week Nights,Adults,Children,Babies,Meal,Country,Market Segment,Distribution Channel,Repeated Guest (0/1),Previous Cancellations,Previous Bookings Not Canceled,Reserved Room Type,Assigned Room Type,Booking Changes,Deposit Type,Agent,Days in Waiting List,Customer Type,ADR,Required Car Parking Spaces,Total Special Requests,City,Prediction,Cancellation Probability,Risk Level,timestamp
+Moldi bolasi Hotel,5,3,1,5,5,2,2,0,0,56,Russia,fea,trtdrt,2,0,0,2,2,0,def,0,0,fsaef,0,0,0,Daegu,,,,2026-01-01 12:13:54.420960
+Moldi bolasi Hotel,5,3,1,5,5,2,2,0,0,56,Russia,fea,trtdrt,2,0,0,2,2,0,def,0,0,fsaef,0,0,0,Daegu,,,,2026-01-01 12:13:56.139131
+Resort Hotel - Delhi,85,August,34,25,0,3,2,0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240,0,Transient,82,0,1,Delhi,Cancelled ❌,87.23%,HIGH 🔴,2026-01-01 12:19:54.586505
+Resort Hotel - Delhi,85,August,34,25,0,3,2,0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240,0,Transient,82,0,1,Delhi,Cancelled ❌,87.23%,HIGH 🔴,2026-01-01 12:19:57.171799

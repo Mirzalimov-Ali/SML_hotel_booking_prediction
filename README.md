@@ -17,30 +17,24 @@ Scale --> Base[Base Model Training]
 
 Base --> FS{Feature Selection}
 
-FS --> F1[Filter<br/>Correlation / Chi2]
+FS --> F1[Filter<br/>Correlation]
 FS --> F2[Wrapper<br/>RFE]
 FS --> F3[Embedded<br/>Lasso / Trees]
-FS --> F4[Model Importance]
 
 F1 --> SMOTE[SMOTE]
 F2 --> SMOTE
 F3 --> SMOTE
-F4 --> SMOTE
 
 SMOTE --> Tune{Hyperparameter Tuning}
 
-Tune --> T1[Grid Search]
-Tune --> T2[Random Search]
-Tune --> T3[Bayesian Optimization]
-Tune --> T4[Optuna]
-Tune --> T5[Hyperband]
+Tune --> T1[Optuna]
 
 T1 --> Final[Final Training]
-T2 --> Final
-T3 --> Final
-T4 --> Final
-T5 --> Final
 
-Final --> Infer[Inference]
-Infer --> End((End))
+Final --> Infer[Offline Testing]
+
+Infer --> API[FastAPI Deployment]
+API --> Client[Client / Hotel System]
+
+Client --> End((End))
 ```
