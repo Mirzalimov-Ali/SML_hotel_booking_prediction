@@ -1409,3 +1409,111 @@
 2026-01-01 16:03:53,167 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_last_minute
 2026-01-01 16:03:53,167 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_suspicious_price
 2026-01-01 16:03:53,173 - INFO - preprocessing TRAIN - Scaled numerical columns using StandardScaler
+2026-01-01 16:19:11,029 - INFO - preprocessing TRAIN - Applied KNNImputer to numerical columns
+2026-01-01 16:19:11,029 - INFO - preprocessing TRAIN - Applied MODE imputer to column: hotel
+2026-01-01 16:19:11,030 - INFO - preprocessing TRAIN - Applied MODE imputer to column: arrival_date_month
+2026-01-01 16:19:11,030 - INFO - preprocessing TRAIN - Applied MODE imputer to column: meal
+2026-01-01 16:19:11,030 - INFO - preprocessing TRAIN - Applied MODE imputer to column: country
+2026-01-01 16:19:11,030 - INFO - preprocessing TRAIN - Applied MODE imputer to column: market_segment
+2026-01-01 16:19:11,030 - INFO - preprocessing TRAIN - Applied MODE imputer to column: distribution_channel
+2026-01-01 16:19:11,031 - INFO - preprocessing TRAIN - Applied MODE imputer to column: reserved_room_type
+2026-01-01 16:19:11,031 - INFO - preprocessing TRAIN - Applied MODE imputer to column: assigned_room_type
+2026-01-01 16:19:11,031 - INFO - preprocessing TRAIN - Applied MODE imputer to column: deposit_type
+2026-01-01 16:19:11,031 - INFO - preprocessing TRAIN - Applied MODE imputer to column: customer_type
+2026-01-01 16:19:11,031 - INFO - preprocessing TRAIN - Applied MODE imputer to column: city
+2026-01-01 16:19:11,040 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: hotel
+2026-01-01 16:19:11,040 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: arrival_date_month
+2026-01-01 16:19:11,041 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: meal
+2026-01-01 16:19:11,041 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: country
+2026-01-01 16:19:11,042 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: market_segment
+2026-01-01 16:19:11,042 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: distribution_channel
+2026-01-01 16:19:11,042 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: reserved_room_type
+2026-01-01 16:19:11,042 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: assigned_room_type
+2026-01-01 16:19:11,042 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: deposit_type
+2026-01-01 16:19:11,044 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: customer_type
+2026-01-01 16:19:11,044 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: city
+2026-01-01 16:19:11,045 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_free_booking
+2026-01-01 16:19:11,045 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_last_minute
+2026-01-01 16:19:11,046 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_suspicious_price
+2026-01-01 16:19:11,048 - INFO - preprocessing TRAIN - Scaled numerical columns using StandardScaler
+2026-01-01 16:19:12,747 - INFO - preprocessing TRAIN - Applied KNNImputer to numerical columns
+2026-01-01 16:19:12,748 - INFO - preprocessing TRAIN - Applied MODE imputer to column: hotel
+2026-01-01 16:19:12,748 - INFO - preprocessing TRAIN - Applied MODE imputer to column: arrival_date_month
+2026-01-01 16:19:12,748 - INFO - preprocessing TRAIN - Applied MODE imputer to column: meal
+2026-01-01 16:19:12,748 - INFO - preprocessing TRAIN - Applied MODE imputer to column: country
+2026-01-01 16:19:12,749 - INFO - preprocessing TRAIN - Applied MODE imputer to column: market_segment
+2026-01-01 16:19:12,749 - INFO - preprocessing TRAIN - Applied MODE imputer to column: distribution_channel
+2026-01-01 16:19:12,749 - INFO - preprocessing TRAIN - Applied MODE imputer to column: reserved_room_type
+2026-01-01 16:19:12,750 - INFO - preprocessing TRAIN - Applied MODE imputer to column: assigned_room_type
+2026-01-01 16:19:12,750 - INFO - preprocessing TRAIN - Applied MODE imputer to column: deposit_type
+2026-01-01 16:19:12,750 - INFO - preprocessing TRAIN - Applied MODE imputer to column: customer_type
+2026-01-01 16:19:12,750 - INFO - preprocessing TRAIN - Applied MODE imputer to column: city
+2026-01-01 16:19:12,761 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: hotel
+2026-01-01 16:19:12,761 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: arrival_date_month
+2026-01-01 16:19:12,762 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: meal
+2026-01-01 16:19:12,763 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: country
+2026-01-01 16:19:12,764 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: market_segment
+2026-01-01 16:19:12,764 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: distribution_channel
+2026-01-01 16:19:12,764 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: reserved_room_type
+2026-01-01 16:19:12,765 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: assigned_room_type
+2026-01-01 16:19:12,766 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: deposit_type
+2026-01-01 16:19:12,767 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: customer_type
+2026-01-01 16:19:12,767 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: city
+2026-01-01 16:19:12,769 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_free_booking
+2026-01-01 16:19:12,770 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_last_minute
+2026-01-01 16:19:12,771 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_suspicious_price
+2026-01-01 16:19:12,777 - INFO - preprocessing TRAIN - Scaled numerical columns using StandardScaler
+2026-01-01 16:19:14,803 - INFO - preprocessing TRAIN - Applied KNNImputer to numerical columns
+2026-01-01 16:19:14,803 - INFO - preprocessing TRAIN - Applied MODE imputer to column: hotel
+2026-01-01 16:19:14,803 - INFO - preprocessing TRAIN - Applied MODE imputer to column: arrival_date_month
+2026-01-01 16:19:14,803 - INFO - preprocessing TRAIN - Applied MODE imputer to column: meal
+2026-01-01 16:19:14,803 - INFO - preprocessing TRAIN - Applied MODE imputer to column: country
+2026-01-01 16:19:14,803 - INFO - preprocessing TRAIN - Applied MODE imputer to column: market_segment
+2026-01-01 16:19:14,805 - INFO - preprocessing TRAIN - Applied MODE imputer to column: distribution_channel
+2026-01-01 16:19:14,805 - INFO - preprocessing TRAIN - Applied MODE imputer to column: reserved_room_type
+2026-01-01 16:19:14,805 - INFO - preprocessing TRAIN - Applied MODE imputer to column: assigned_room_type
+2026-01-01 16:19:14,805 - INFO - preprocessing TRAIN - Applied MODE imputer to column: deposit_type
+2026-01-01 16:19:14,805 - INFO - preprocessing TRAIN - Applied MODE imputer to column: customer_type
+2026-01-01 16:19:14,805 - INFO - preprocessing TRAIN - Applied MODE imputer to column: city
+2026-01-01 16:19:14,810 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: hotel
+2026-01-01 16:19:14,810 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: arrival_date_month
+2026-01-01 16:19:14,811 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: meal
+2026-01-01 16:19:14,812 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: country
+2026-01-01 16:19:14,812 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: market_segment
+2026-01-01 16:19:14,812 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: distribution_channel
+2026-01-01 16:19:14,812 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: reserved_room_type
+2026-01-01 16:19:14,813 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: assigned_room_type
+2026-01-01 16:19:14,813 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: deposit_type
+2026-01-01 16:19:14,814 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: customer_type
+2026-01-01 16:19:14,814 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: city
+2026-01-01 16:19:14,815 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_free_booking
+2026-01-01 16:19:14,815 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_last_minute
+2026-01-01 16:19:14,815 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_suspicious_price
+2026-01-01 16:19:14,818 - INFO - preprocessing TRAIN - Scaled numerical columns using StandardScaler
+2026-01-01 16:19:14,922 - INFO - preprocessing TRAIN - Applied KNNImputer to numerical columns
+2026-01-01 16:19:14,922 - INFO - preprocessing TRAIN - Applied MODE imputer to column: hotel
+2026-01-01 16:19:14,922 - INFO - preprocessing TRAIN - Applied MODE imputer to column: arrival_date_month
+2026-01-01 16:19:14,922 - INFO - preprocessing TRAIN - Applied MODE imputer to column: meal
+2026-01-01 16:19:14,922 - INFO - preprocessing TRAIN - Applied MODE imputer to column: country
+2026-01-01 16:19:14,922 - INFO - preprocessing TRAIN - Applied MODE imputer to column: market_segment
+2026-01-01 16:19:14,924 - INFO - preprocessing TRAIN - Applied MODE imputer to column: distribution_channel
+2026-01-01 16:19:14,924 - INFO - preprocessing TRAIN - Applied MODE imputer to column: reserved_room_type
+2026-01-01 16:19:14,924 - INFO - preprocessing TRAIN - Applied MODE imputer to column: assigned_room_type
+2026-01-01 16:19:14,924 - INFO - preprocessing TRAIN - Applied MODE imputer to column: deposit_type
+2026-01-01 16:19:14,924 - INFO - preprocessing TRAIN - Applied MODE imputer to column: customer_type
+2026-01-01 16:19:14,924 - INFO - preprocessing TRAIN - Applied MODE imputer to column: city
+2026-01-01 16:19:14,935 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: hotel
+2026-01-01 16:19:14,936 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: arrival_date_month
+2026-01-01 16:19:14,936 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: meal
+2026-01-01 16:19:14,937 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: country
+2026-01-01 16:19:14,938 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: market_segment
+2026-01-01 16:19:14,938 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: distribution_channel
+2026-01-01 16:19:14,939 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: reserved_room_type
+2026-01-01 16:19:14,940 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: assigned_room_type
+2026-01-01 16:19:14,940 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: deposit_type
+2026-01-01 16:19:14,941 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: customer_type
+2026-01-01 16:19:14,942 - INFO - preprocessing TRAIN - Applied Ordinal Encoding to column: city
+2026-01-01 16:19:14,943 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_free_booking
+2026-01-01 16:19:14,944 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_last_minute
+2026-01-01 16:19:14,945 - INFO - preprocessing TRAIN - Applied log1p transformation to: is_suspicious_price
+2026-01-01 16:19:14,950 - INFO - preprocessing TRAIN - Scaled numerical columns using StandardScaler
