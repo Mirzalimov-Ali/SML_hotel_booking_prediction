@@ -23,7 +23,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          registry: docker.io
 
 
       # 4️⃣ Build & push Docker image
